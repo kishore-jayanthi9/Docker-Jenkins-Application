@@ -1,0 +1,27 @@
+{
+  "name": "docker-jenkins-application",
+  "version": "1.0.0",
+  "description": "Building a dummy application with Docker and Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kishore-jayanthi9/Docker-Jenkins-Application.git"
+  },
+  "author": "Kishore Jayanthi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kishore-jayanthi9/Docker-Jenkins-Application/issues"
+  },
+  "homepage": "https://github.com/kishore-jayanthi9/Docker-Jenkins-Application#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
